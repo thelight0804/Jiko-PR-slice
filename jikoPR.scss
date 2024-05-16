@@ -1,0 +1,46 @@
+.inline {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.image {
+  border-radius: 10px;
+}
+
+.profile {
+  @extend .image;
+  width: 30%;
+}
+
+.slide2-image1 {
+  @extend .image;
+  width: 50%;
+}
+
+.image__duolingo {
+  @extend .image;
+  width: 35%;
+}
+
+.image__anki {
+  @extend .image;
+  justify-content: space-between;
+  width: 45%;
+  margin: 10px 10px;
+}
+
+.image__n1 {
+  @extend .image;
+  width: 80%;
+}
+
+.image__exchange {
+  @extend .image;
+  width: 80%;
+}
+
+.slide2__li {
+  text-align: left;
+  font-size: 1.5rem;
+}

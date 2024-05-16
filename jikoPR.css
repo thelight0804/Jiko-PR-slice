@@ -1,0 +1,42 @@
+.inline {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.image, .image__exchange, .image__n1, .image__anki, .image__duolingo, .slide2-image1, .profile {
+  border-radius: 10px;
+}
+
+.profile {
+  width: 30%;
+}
+
+.slide2-image1 {
+  width: 50%;
+}
+
+.image__duolingo {
+  width: 35%;
+}
+
+.image__anki {
+  justify-content: space-between;
+  width: 45%;
+  margin: 10px 10px;
+}
+
+.image__n1 {
+  width: 80%;
+}
+
+.image__exchange {
+  width: 80%;
+}
+
+.slide2__li {
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=jikoPR.css.map */
